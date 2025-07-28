@@ -5,11 +5,17 @@ This repository provides a complete pipeline for training, evaluating, and testi
 ## Repository Structure
 
 ├── data_analysis/ # Notebooks and files for site specific machine learning analysis for predicting Water Stage and Discharge from pixel count values
+
 ├── edge_test/ # Scripts to test trained models on edge devices (Jetson Orin, Jetson Orin Nano, LattePanda Sigma and Raspberry Pi 5)
+
 ├── train_SAM.ipynb # Fine-tuning and inference notebook for the original SAM model
+
 ├── train_mobileSAM.ipynb # Fine-tuning and inference notebook for MobileSAM (optimized for edge)
+
 ├── .gitattributes # Git LFS tracking configuration for large models
+
 ├── LICENSE # MIT License
+
 └── README.md # Project overview and usage instructions
 
 ## Features
